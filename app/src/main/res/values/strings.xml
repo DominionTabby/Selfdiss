@@ -6,4 +6,6 @@
     <string name="insult_me">Insult me!</string>
     <string name="worthless">You are worthless!</string>
     <string name="worthless_vulgar">You suck!</string>
+    <string name="settings">Settings</string>
+    <string name="vulgar_insults">Vulgar insults</string>
 </resources>

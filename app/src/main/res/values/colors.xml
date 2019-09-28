@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="accent">#FF5252</color>
-    <color name="background">#FAFAFA</color>
+    <color name="background">#F0F0F0</color>
     <color name="divider">#BDBDBD</color>
     <color name="primary">#3F51B5</color>
     <color name="primaryDark">#303F9F</color>
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#757575</color>
+    <color name="white">#FFFFFF</color>
 </resources>

@@ -5,4 +5,6 @@
     <string name="insult_me">Obraź mnie!</string>
     <string name="worthless">Jesteś do niczego!</string>
     <string name="worthless_vulgar">Jesteś do dupy!</string>
+    <string name="settings">Ustawienia</string>
+    <string name="vulgar_insults">Wulgarne obelgi</string>
 </resources>

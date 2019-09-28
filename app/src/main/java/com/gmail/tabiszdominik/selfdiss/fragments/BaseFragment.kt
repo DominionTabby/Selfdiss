@@ -5,17 +5,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.gmail.tabiszdominik.selfdiss.MainViewModel
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.schedulers.Schedulers
+import org.koin.android.viewmodel.ext.android.sharedViewModel
 
 /**
  * Created by Dominik Tabisz on 2019-09-28.
  * tabiszdominik@gmail.com
  */
 abstract class BaseFragment : Fragment() {
+
+    protected val mainViewModel: MainViewModel by sharedViewModel()
 
     private val disposables = CompositeDisposable()
 

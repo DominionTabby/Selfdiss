@@ -2,6 +2,7 @@ package com.gmail.tabiszdominik.selfdiss
 
 import android.app.Application
 import com.gmail.tabiszdominik.selfdiss.fragments.insult.insultModule
+import com.gmail.tabiszdominik.selfdiss.fragments.settings.settingsModule
 import com.gmail.tabiszdominik.selfdiss.repositories.repositoriesModule
 import org.koin.android.ext.android.startKoin
 import timber.log.Timber
@@ -21,7 +22,9 @@ class App : Application() {
             androidContext = this@App,
             modules = listOf(
                 repositoriesModule,
-                insultModule
+                mainModule,
+                insultModule,
+                settingsModule
             )
         )
     }

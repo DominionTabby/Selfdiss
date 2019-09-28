@@ -20,6 +20,10 @@ class InsultFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        settingsButton.setOnClickListener {
+            mainViewModel.openSettings()
+        }
+
         insultMeButton.setOnClickListener {
             viewModel.onInsultMeClick()
         }

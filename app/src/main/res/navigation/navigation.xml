@@ -9,6 +9,16 @@
         android:id="@+id/mainFragment"
         android:name="com.gmail.tabiszdominik.selfdiss.fragments.insult.InsultFragment"
         android:label="MainFragment"
-        tools:layout="@layout/fragment_insult" />
+        tools:layout="@layout/fragment_insult">
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.gmail.tabiszdominik.selfdiss.fragments.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>
