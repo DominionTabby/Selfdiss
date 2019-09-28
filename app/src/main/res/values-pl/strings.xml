@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="get_lost">Spadaj!</string>
+    <string name="get_lost_vulgar">Spierdalaj!</string>
+    <string name="insult_me">Obraź mnie!</string>
+    <string name="worthless">Jesteś do niczego!</string>
+    <string name="worthless_vulgar">Jesteś do dupy!</string>
+</resources>

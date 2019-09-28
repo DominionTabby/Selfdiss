@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="insults">
+        <item>@string/worthless</item>
+        <item>@string/get_lost</item>
+    </string-array>
+
+    <string-array name="insults_vulgar">
+        <item>@string/worthless_vulgar</item>
+        <item>@string/get_lost_vulgar</item>
+    </string-array>
+</resources>

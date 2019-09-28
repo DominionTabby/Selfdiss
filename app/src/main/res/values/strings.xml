@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Selfdiss</string>
+    <string name="app_name" translatable="false">Selfdiss</string>
+    <string name="get_lost">Get lost!</string>
+    <string name="get_lost_vulgar">Fuck off!</string>
+    <string name="insult_me">Insult me!</string>
+    <string name="worthless">You are worthless!</string>
+    <string name="worthless_vulgar">You suck!</string>
 </resources>
