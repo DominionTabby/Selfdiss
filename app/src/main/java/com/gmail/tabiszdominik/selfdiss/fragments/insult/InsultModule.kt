@@ -1,7 +1,7 @@
 package com.gmail.tabiszdominik.selfdiss.fragments.insult
 
-import org.koin.android.viewmodel.ext.koin.viewModel
-import org.koin.dsl.module.module
+import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.dsl.module
 
 /**
  * Created by Dominik Tabisz on 2019-09-28.

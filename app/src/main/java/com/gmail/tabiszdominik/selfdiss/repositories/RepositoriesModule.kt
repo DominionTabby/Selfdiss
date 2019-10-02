@@ -3,7 +3,7 @@ package com.gmail.tabiszdominik.selfdiss.repositories
 import android.content.ContextWrapper
 import com.gmail.tabiszdominik.selfdiss.R
 import org.koin.android.ext.koin.androidContext
-import org.koin.dsl.module.module
+import org.koin.dsl.module
 
 /**
  * Created by Dominik Tabisz on 2019-09-28.

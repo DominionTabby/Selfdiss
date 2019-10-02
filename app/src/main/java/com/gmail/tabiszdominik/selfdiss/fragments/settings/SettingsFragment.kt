@@ -5,7 +5,7 @@ import android.view.View
 import com.gmail.tabiszdominik.selfdiss.R
 import com.gmail.tabiszdominik.selfdiss.fragments.BaseFragment
 import kotlinx.android.synthetic.main.fragment_settings.*
-import org.koin.android.viewmodel.ext.android.viewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 /**
  * Created by Dominik Tabisz on 2019-09-28.
